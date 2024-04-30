@@ -1,0 +1,16 @@
+header{background-color: blueviolet;
+display: inline-block; 
+}
+
+body{
+    background-color: black;
+    h1{color: aqua;}
+    h2{color: blueviolet;}
+    p{color: aliceblue;}
+    mark{color: chartreuse; color: black;}
+        img{width: 30%;}
+    picture{width: 100%;}
+    ul{display: inline-block; justify-content: space-between;
+    }
+    ul{display: inline-block; padding: 50px 20px;}
+}

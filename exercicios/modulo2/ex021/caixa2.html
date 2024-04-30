@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tags</title>
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: bisque;
+        margin: 0px;
+               } 
+       header{
+        background-color: aquamarine;
+        padding: 20px;
+        margin: 10px;
+       }
+       
+       nav{
+       background-color: black; 
+       padding: 3px;
+       }
+       nav > a{
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+        
+       }
+       nav > :hover{
+        text-decoration:underline;
+        color: blueviolet;
+       }
+
+       main{
+        background-color: cadetblue;
+        padding: 20px;
+        margin: 10px;
+       }
+       
+       article{
+        background-color: thistle;
+        padding:5px;
+       }
+       article > aside{
+        background-color: tomato;
+        }
+
+       footer{
+        background-color: yellow;
+        color: blueviolet;
+        text-align: center;
+        padding: 1px;
+        margin: 0px
+       }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</nav>
+    </header>
+    <main>
+
+        <section id="assuntos">
+            <p>Esporte Políticas Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, est ratione. Earum ducimus cupiditate, beatae fuga molestiae ratione cumque veritatis eos est unde, consequuntur vitae, asperiores autem corrupti et. Autem!</p>
+        
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        
+            <article>
+        
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+<p>Desenvolvendo pelo Curso</p>
+    </footer>
+
+</body>
+</html>

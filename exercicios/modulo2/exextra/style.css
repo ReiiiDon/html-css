@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: rgb(7, 7, 95);
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    }
+
+
+ #caixa-mae{
+    width:100%;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#navegação{
+    padding: 100px;
+}
+
+#select{
+   padding: 50px;
+}
