@@ -79,7 +79,9 @@ section.imagem{
 
 section.imagem >p{
 background-color: #6e6e6eb7;
-width: 450px;
+display: inline-block;
+padding: 8px 20px;
+border-radius: 7px;
 
 }
 
