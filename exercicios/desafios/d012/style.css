@@ -45,7 +45,6 @@ header > h1{
 header > p{
 padding-bottom: 50px;
 font-family: var(--font2);
-
 }
 
 header a, footer a{
@@ -54,8 +53,8 @@ header a, footer a{
     font-weight: bold;
 }
 
-header a:hover, footer a:hover{
-    color: tomato;
+header a:hover{
+    color: var(--cor2);
 }
 
 section{
@@ -63,7 +62,12 @@ section{
     padding-bottom:10vh;
     line-height: 2em;
     padding-left: 25px;
+    font-size: 20px;
     
+}
+
+section > p{
+    padding-bottom:2em;
 }
 
 section.normal{
@@ -74,20 +78,39 @@ section.normal{
 section.imagem{
     background-color:var(--cor4);
     color: var(--cor3);
-        
+    box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.781);
+    background-attachment: fixed;
 }
 
 section.imagem >p{
-background-color: #6e6e6eb7;
-display: inline-block;
-padding: 8px 20px;
-border-radius: 7px;
+    background-color: #6e6e6eb7;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 7px;
+    box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.781);
+    }
 
-}
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    }
+
+
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    }
+
 
 footer{
-background-color: var(--cor4);
-color: aliceblue;
-text-align: center;
-padding: 10px;
-}
+    background-color: var(--cor4);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    }
+
+footer a:hover{
+    color: var(--cor1);
+    }
