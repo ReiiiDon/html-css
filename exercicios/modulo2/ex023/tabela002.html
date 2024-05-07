@@ -11,8 +11,16 @@
                 color: blueviolet;
             }
 
+            caption{
+                font-size: 30px;
+                font-weight: bold;
+                padding: 10px;
+                background-color: antiquewhite;
+                border-radius: 15px 15px 0px 0px
+            }
             table{
                 width: 500px;
+                border-collapse: collapse;
             }
 
             td, th{
@@ -38,7 +46,7 @@
             }
 
             th.habitantes{
-                background-color: blue;
+                background-color: rgb(138, 187, 123);
             }   
 
         </style>
@@ -49,10 +57,14 @@
     <h1>Uso de Tabelas Grandes</h1>
 
     <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
             
         </thead>
@@ -147,7 +159,7 @@
 
         <tfoot>
             <tr>
-                <th class="habitantes">Total de Habitantes</th>
+                <th scope="row" class="habitantes">Total de Habitantes</th>
                 <td class="total"><strong>273.458.358</strong></td>
             </tr>
         </tfoot>
