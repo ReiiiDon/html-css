@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #4c5dbe;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a > img{
+    width: 200px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding:0 25px;     
+    color: aliceblue;   
+}
+
+button{
+        border: none;
+        padding: 10px 20px;
+        font-size: 15px;
+        color: aliceblue;
+        border: 2px solid #ffff;
+        background-color: transparent;
+        border-radius: 10px;
+}
+
+body{
+    background-image: url(img/dirty-rustic-white-wood-textured-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fundo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;        
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.main{        
+    padding: 50px;
+    align-items: center;
+    margin-top: 35px;        
+    width: 800px;
+    height: 100%;
+    background-color: #77b2f59c;
+}
+
+.texto{
+    text-align: center;
+    color: #4c5dbe;
+}
+
+p{
+    color: #000000;
+    margin: 20px;
+    text-align: justify;
+}
+
+footer{
+    background-color: #4c5dbe;
+    height: 75px;
+}
