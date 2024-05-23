@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #000000;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div > img{
+    width: 200px;
+    margin: 35px;
+}
+
+a{
+    text-decoration: none;
+    padding:0 25px;     
+    color: rgb(255, 255, 255);   
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+body{
+    background: url(img/coca-cola-drink-rotating-red-172143362_prevstill.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    display: flex;        
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.main{        
+    padding: 50px;
+    align-items: center;
+    margin-top: 35px;        
+    width: 800px;
+    height: 100%;
+    background-color: #6e0909a4;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #000000;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
