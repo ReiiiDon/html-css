@@ -11,13 +11,18 @@ header{
 
 div > img{
     width: 200px;
-    margin: 35px;
+    
 }
 
 a{
     text-decoration: none;
     padding:0 25px;     
     color: rgb(255, 255, 255);   
+}
+
+.logo{
+    margin-top: 38px;
+    margin-left: 35px;
 }
 
 .nav{
