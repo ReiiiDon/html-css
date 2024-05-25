@@ -3,40 +3,65 @@
     padding: 0;
 }
 
+/* ---------------------------------------------------------------- */
+div.up_bar{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cor_up_bar{
+    color: rgb(255, 255, 255);
+}
 header{
     background-color: rgba(255, 255, 255, 0.37);
     height: 100px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    
 }
 .logo{
-    width: 100px;
-    /* width: 100px; */
-    /* margin-left: 50px; */
+    width: 75px;
+    margin-left: 50px;
 }
+/* ---------------------------------------------------------------- */
+
 nav > a{
-    margin: 50px;
+    margin: 20px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    
 }
 a:hover{
     color: rgb(208, 226, 43);
 }
+.text_no_bold{
+    color: rgb(116, 116, 117);
+    font-weight: normal;
+}
 
+/* ---------------------------------------------------------------- */
 
+div.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconetop{
+    width: 20px;
+    padding: 20px;
+}
+/* ---------------------------------------------------------------- */
 .cortop{
     background-color: blue;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content:end;
     align-items: center;
 }
 
+/* ---------------------------------------------------------------- */
 
 main{
     height: 100vw;
@@ -63,7 +88,7 @@ p{
     text-align: justify;
 }
 
-
+/* ---------------------------------------------------------------- */
 
 footer{
     background-color: rgb(0, 0, 0);
