@@ -24,12 +24,11 @@ div > a.cabecalho{
 }
 
 main{
-    width: 100vw;
-        }
-
-
-.caixa1{
-    background-color: rgb(255, 196, 0);
-    height: 1000px;
+    height: 100vw;
+    background-color: rgba(228, 170, 12, 0.801);
+    width: 100%;
+    margin: auto;
 }
-
+.caixa2{
+    
+}
