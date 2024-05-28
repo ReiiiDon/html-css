@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color: aliceblue;
+    height: 80px;
+    /*  */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*  */
+    
+}
+div > img.logo {
+    width: 180px;
+}
+
+div > a.cabecalho{
+    margin: 30px;
+}
+
+main{
+    width: 100vw;
+        }
+
+
+.caixa1{
+    background-color: rgb(255, 196, 0);
+    height: 1000px;
+}
+
