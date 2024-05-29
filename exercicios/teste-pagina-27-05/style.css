@@ -5,16 +5,36 @@
     text-decoration: none;
 }
 
-header{
+body {
+   font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header{
     background-color: aliceblue;
     height: 80px;
-    /*  */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /*  */
-    
+} */
+
+header {
+    background-color: aliceblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
 }
+
+
+
 div > img.logo {
     width: 180px;
 }
@@ -24,11 +44,29 @@ div > a.cabecalho{
 }
 
 main{
-    height: 100vw;
+    
     background-color: rgba(228, 170, 12, 0.801);
     width: 100%;
     margin: auto;
 }
 .caixa2{
+    display: flex;
+    justify-content: center;
     
+
+}
+.caixa2 img{
+    padding: 50px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
 }
