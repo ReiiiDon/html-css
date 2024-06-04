@@ -40,8 +40,8 @@ header div a{
 }
 
 div.color-top{
-    background-color: black;
-    height: 30px;
+    background-color: rgb(69, 69, 70);
+    height: 15px;
 }
 
 main{
@@ -52,17 +52,20 @@ main{
 
 main img{
     height: 250px;
+    border-radius: 0 30px;
 }
 
 main div.conteudo{
     display: flex;
     padding: 50px;
+    align-items: center;
 }
 
 main div.texto{
-    padding-left: 50px;
+    padding-left: 30px;
     text-align: center;
     justify-content: center;
+    
 }
 
 main h1{
